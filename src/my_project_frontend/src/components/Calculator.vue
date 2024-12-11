@@ -35,7 +35,7 @@ onMounted(() => {
   <form
     action="#"
     @submit="handleCalculate"
-    class="flex flex-col items-center justify-center gap-4 p-10 border-2 rounded-lg border-violet-950"
+    class="flex flex-col items-center justify-center gap-4 w-96 h-96 mb-10 border-4 rounded-2xl border-black border-solid"
   >
     <label for="a" class="text-xl font-light text-violet-50">Enter number A:</label>
     <input
@@ -63,7 +63,7 @@ onMounted(() => {
     </select>
     <button
       type="submit"
-      class="p-2 font-semibold rounded-lg bg-gradient-to-r from-violet-800 to-violet-950 text-violet-50"
+      class=" bg-gradient-to-r from-violet-800 to-violet-950 text-violet-50 p-2 w-72 rounded-lg hover:scale-110 cursor-pointer duration-150"
     >
       Calculate
     </button>
